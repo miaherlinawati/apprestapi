@@ -6,7 +6,9 @@ exports.ok = function(values, res){
         'values':values
     };
 
-    console.log(values)
+    
      res.json(data);
      res.end();
+
+     
 }
